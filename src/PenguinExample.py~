@@ -77,3 +77,13 @@ if __name__ == "__main__":
     deviceList = json.loads(client.getRelativeURL("/penguin/api/{gatewayGUID}/inbox"))["content"]
     print  "--- Print inbox messages --"
     print deviceList
+	
+#	def eServiceEcho(message):
+#		event = json.loads(message)
+#		print event
+        
+        
+	#client.eServiceEventHandlers.append(eServiceEcho)
+	#client.listenToEService()
+
+	
