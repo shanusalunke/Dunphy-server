@@ -1,0 +1,2694 @@
+{
+  "status": "0",
+  "content": [
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A0B13C0",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418941073000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Door2",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685133000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424491767000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418941073000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A2D5CAA",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418942665000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Window3",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685135000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424484098000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685588000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A2D5CAE",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418940619000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Window4",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685136000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424376643000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418940620000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A2D5C94",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418939149000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Window2",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685134000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424376658000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418939149000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "alarm-keypad2",
+      "deviceGuid": "KP021259EA",
+      "movable": true,
+      "events": [
+        {
+          "event": "bypass"
+        },
+        {
+          "event": "police-emergency"
+        },
+        {
+          "event": "fire-emergency"
+        },
+        {
+          "event": "aux-emergency"
+        },
+        {
+          "event": "duress-emergency"
+        },
+        {
+          "event": "alarm-cancel"
+        },
+        {
+          "event": "bypass-reset"
+        },
+        {
+          "event": "ac-power-lost"
+        },
+        {
+          "event": "ac-power-restored"
+        },
+        {
+          "event": "bad-battery"
+        },
+        {
+          "event": "bad-battery-restored"
+        },
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "pin-tamper"
+        },
+        {
+          "event": "pin-tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "lcd-dim-level",
+          "protection": "Read/Write",
+          "dataType": "int:0,100",
+          "value": "25",
+          "defaultValue": "25",
+          "lastUpdateTime": 946685069000
+        },
+        {
+          "label": "ping-results",
+          "protection": "Read/Write",
+          "dataType": "binary",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "installer-tool-test-duration",
+          "protection": "Write Only",
+          "dataType": "int:0,10",
+          "value": "5",
+          "defaultValue": "5",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "installer-tool-test",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "alarm-audio-level",
+          "protection": "Read/Write",
+          "dataType": "int:50,100",
+          "value": "100",
+          "defaultValue": "100",
+          "lastUpdateTime": 946685070000
+        },
+        {
+          "label": "led-level",
+          "protection": "Read/Write",
+          "dataType": "int:25,100",
+          "value": "100",
+          "defaultValue": "100",
+          "lastUpdateTime": 946685069000
+        },
+        {
+          "label": "button-audio-level",
+          "protection": "Read/Write",
+          "dataType": "int:0,100",
+          "value": "5",
+          "defaultValue": "5",
+          "lastUpdateTime": 946685070000
+        },
+        {
+          "label": "sub-status",
+          "protection": "Read Only",
+          "dataType": "int:0,9999",
+          "value": "4100",
+          "defaultValue": "4000",
+          "lastUpdateTime": 1424376506000
+        },
+        {
+          "label": "door-audio-level",
+          "protection": "Read/Write",
+          "dataType": "int:0,100",
+          "value": "75",
+          "defaultValue": "75",
+          "lastUpdateTime": 946685071000
+        },
+        {
+          "label": "reset",
+          "protection": "Write Only",
+          "dataType": "int:0,1",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424374471000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Alarm Keypad",
+          "defaultValue": "Alarm Keypad",
+          "lastUpdateTime": 946685059000
+        },
+        {
+          "label": "power-source",
+          "protection": "Read Only",
+          "dataType": "enum:AC,DC",
+          "value": "AC",
+          "defaultValue": "null",
+          "lastUpdateTime": 1420336252000
+        },
+        {
+          "label": "signal-strength",
+          "protection": "Read/Write",
+          "dataType": "int:-10,6",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 946685059000
+        },
+        {
+          "label": "qos",
+          "protection": "Read Only",
+          "dataType": "int:-2,10",
+          "value": "-1",
+          "defaultValue": "-1",
+          "lastUpdateTime": 946685059000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685068000
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "lcd-bright-level",
+          "protection": "Read/Write",
+          "dataType": "int:50,100",
+          "value": "75",
+          "defaultValue": "75",
+          "lastUpdateTime": 946685069000
+        }
+      ]
+    },
+    {
+      "deviceType": "camera",
+      "deviceGuid": "IYFFFFFFFE",
+      "movable": true,
+      "events": [
+        {
+          "event": "video/image-captured-on-alarm"
+        },
+        {
+          "event": "video/image-captured-on-alarm"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "capture-button-pressed"
+        },
+        {
+          "event": "motion-detected"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "motion-detection-areas",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "1|86,142,553,321,20",
+          "defaultValue": "1|86,142,553,321,20",
+          "lastUpdateTime": 946685107000
+        },
+        {
+          "label": "motion-detection-mode",
+          "protection": "Read/Write",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 946685113000
+        },
+        {
+          "label": "brightness",
+          "protection": "Read/Write",
+          "dataType": "int:-3,3",
+          "value": "1",
+          "defaultValue": "1",
+          "lastUpdateTime": 946685112000
+        },
+        {
+          "label": "quiet-time",
+          "protection": "Read/Write",
+          "dataType": "int:30,120,5",
+          "value": "30",
+          "defaultValue": "30",
+          "lastUpdateTime": 946685102000
+        },
+        {
+          "label": "capture",
+          "protection": "Write Only",
+          "dataType": "enum:image,video,snapshot",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "snapshot",
+          "protection": "Read Only",
+          "dataType": "binary",
+          "value": "image/jpeg",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424537162000
+        },
+        {
+          "label": "clip-length",
+          "protection": "Read/Write",
+          "dataType": "int:5,60,5",
+          "value": "10",
+          "defaultValue": "10",
+          "lastUpdateTime": 946685102000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424374845000
+        },
+        {
+          "label": "webcam",
+          "protection": "Read/Write",
+          "dataType": "enum:on,off",
+          "value": "off",
+          "defaultValue": "off",
+          "lastUpdateTime": 946685102000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Camera Outdoor",
+          "defaultValue": "Sercomm IP Camera OC432",
+          "lastUpdateTime": 946685102000
+        },
+        {
+          "label": "wifiqos",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "co-sensor",
+      "deviceGuid": "SR0B00D91B",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "co-alarm"
+        },
+        {
+          "event": "co-alarm-restore"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418941177000
+        },
+        {
+          "label": "reset",
+          "protection": "Write Only",
+          "dataType": "int:0,1",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "CO Detector",
+          "defaultValue": "CO Sensor",
+          "lastUpdateTime": 946685136000
+        },
+        {
+          "label": "signal-strength",
+          "protection": "Read/Write",
+          "dataType": "int:-10,6",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 946685136000
+        },
+        {
+          "label": "qos",
+          "protection": "Read Only",
+          "dataType": "int:-2,10",
+          "value": "2",
+          "defaultValue": "-1",
+          "lastUpdateTime": 1424489098000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418941178000
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "sub-status",
+          "protection": "Read Only",
+          "dataType": "int:0,9999",
+          "value": "4400",
+          "defaultValue": "4000",
+          "lastUpdateTime": 946685136000
+        }
+      ]
+    },
+    {
+      "deviceType": "water-sensor",
+      "deviceGuid": "ZD00000005",
+      "movable": true,
+      "events": [
+        {
+          "event": "wet-condition"
+        },
+        {
+          "event": "dry-condition"
+        },
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "low-temperature"
+        },
+        {
+          "event": "high-temperature"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "temperature",
+          "protection": "Read Only",
+          "dataType": "int",
+          "value": "124",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424377363000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1420166515000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Water Sensor",
+          "defaultValue": "Water Sensor",
+          "lastUpdateTime": 1420166501000
+        },
+        {
+          "label": "upper-threshold",
+          "protection": "Read/Write",
+          "dataType": "int:-26,330",
+          "value": "170",
+          "defaultValue": "170",
+          "lastUpdateTime": 1420166452000
+        },
+        {
+          "label": "lower-threshold",
+          "protection": "Read/Write",
+          "dataType": "int:-30,326",
+          "value": "90",
+          "defaultValue": "90",
+          "lastUpdateTime": 1420166452000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "18",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424363751000
+        },
+        {
+          "label": "water-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,dry,wet",
+          "value": "dry",
+          "defaultValue": "unknown",
+          "lastUpdateTime": 1420166513000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "garage-door-controller",
+      "deviceGuid": "GC0500A017",
+      "movable": true,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "tilt-sensor-online"
+        },
+        {
+          "event": "tilt-sensor-offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "garage-door-control",
+          "protection": "Write Only",
+          "dataType": "enum:open,close",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "garage-door-command-result",
+          "protection": "Read Only",
+          "dataType": "enum:ok,working,busy,wallswitchabort,timeout,tiltoffline,failedtwice",
+          "value": "ok",
+          "defaultValue": "ok",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "ping-results",
+          "protection": "Read/Write",
+          "dataType": "binary",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424373628000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Garage Door Opener",
+          "defaultValue": "Garage Door Controller",
+          "lastUpdateTime": 946685075000
+        },
+        {
+          "label": "garage-door-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424376521000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685084000
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "motion-sensor",
+      "deviceGuid": "SM040150CD",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "motion-detected"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "quiet-time",
+          "protection": "Read/Write",
+          "dataType": "int:10,120,5",
+          "value": "10",
+          "defaultValue": "10",
+          "lastUpdateTime": 946685137000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424470064000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "SM040150CD MotionClear",
+          "defaultValue": "Motion Sensor",
+          "lastUpdateTime": 1424536919000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685282000
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A2D5CB2",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418941065000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Window5",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685136000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424376654000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418941065000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "digital-life-controller",
+      "deviceGuid": "0",
+      "movable": true,
+      "events": [
+        {
+          "event": "ac-power-lost"
+        },
+        {
+          "event": "ac-power-restored"
+        },
+        {
+          "event": "bad-battery"
+        },
+        {
+          "event": "bad-battery-restored"
+        },
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "battery-door-tamper"
+        },
+        {
+          "event": "battery-door-tamper-restore"
+        },
+        {
+          "event": "dlc-wall-mount-tamper"
+        },
+        {
+          "event": "dlc-wall-mount-tamper-restore"
+        },
+        {
+          "event": "lprf-radio-jam"
+        },
+        {
+          "event": "lprf-radio-jam-restore"
+        },
+        {
+          "event": "3g-offline"
+        },
+        {
+          "event": "3g-restored"
+        },
+        {
+          "event": "bb-offline"
+        },
+        {
+          "event": "bb-restored"
+        },
+        {
+          "event": "test-start"
+        },
+        {
+          "event": "test-end"
+        },
+        {
+          "event": "monthly-connectivity-test"
+        },
+        {
+          "event": "maintenance-start"
+        },
+        {
+          "event": "maintenance-end"
+        },
+        {
+          "event": "battery-disconnected"
+        },
+        {
+          "event": "battery-reconnected"
+        },
+        {
+          "event": "device-upgrade-failed"
+        },
+        {
+          "event": "rule-modification"
+        },
+        {
+          "event": "gateway-log-event"
+        },
+        {
+          "event": "battery-low-critical"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "notification-event"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "dlc-control",
+          "protection": "Write Only",
+          "dataType": "int:1,5",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "dlc-status-bitmask",
+          "protection": "Read Only",
+          "dataType": "int",
+          "value": "0",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685037000
+        },
+        {
+          "label": "operation-mode",
+          "protection": "Read/Write",
+          "dataType": "int:0,10080,5",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418167480000
+        },
+        {
+          "label": "subscription-features",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "DLBASCPKG",
+          "defaultValue": "DLBASCPKG",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "dl-flags",
+          "protection": "Read/Write",
+          "dataType": "int:0,1023",
+          "value": "23",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418080986000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "livevideoonalarmpolicy",
+          "protection": "Read/Write",
+          "dataType": "enum:always,alarmstate,never",
+          "value": "never",
+          "defaultValue": "never",
+          "lastUpdateTime": 946685054000
+        },
+        {
+          "label": "inbound-port",
+          "protection": "Read/Write",
+          "dataType": "int:32000,65535",
+          "value": "32000",
+          "defaultValue": "32000",
+          "lastUpdateTime": 946685054000
+        },
+        {
+          "label": "token",
+          "protection": "Read Only",
+          "dataType": "string:32",
+          "value": "c98k6ZlBNBbS4pXJfgECfBpW52Ypgssz",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424533977000
+        },
+        {
+          "label": "appliance-ip2",
+          "protection": "Read Only",
+          "dataType": "string:15",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418089678000
+        },
+        {
+          "label": "proxy-ip",
+          "protection": "Read Only",
+          "dataType": "string:128",
+          "value": "a-nps-systest.digitallife.att.com",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424377378000
+        },
+        {
+          "label": "proxy-port",
+          "protection": "Read Only",
+          "dataType": "int:49152,65535",
+          "value": "57363",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424377378000
+        },
+        {
+          "label": "livevideoonalarmtoken",
+          "protection": "Read Only",
+          "dataType": "string:32",
+          "value": "i805Mw5IBeLg4JgYuI7COkHSJyhIdm4k",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424533977000
+        },
+        {
+          "label": "test-request",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "discovery",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "0 2015-02-19 15:23:18: Discovery stopped<br>",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424377398000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "DLC8",
+          "defaultValue": "Digital Life Controller",
+          "lastUpdateTime": 1419282213000
+        },
+        {
+          "label": "fw-version",
+          "protection": "Read Only",
+          "dataType": "string:128",
+          "value": "Cisco: 1.04.93, FW: 1.04.93, JVM: Oracle Corporation 1.7.0_51-ea, OS: Linux 2.6.33.5",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685038000
+        },
+        {
+          "label": "sw-version",
+          "protection": "Read Only",
+          "dataType": "string:128",
+          "value": "1.0.22.00/31429",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685030000
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": ",auto-dla",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418167480000
+        },
+        {
+          "label": "timezone",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "EST5EDT",
+          "defaultValue": "EST5EDT",
+          "lastUpdateTime": 1418081004000
+        },
+        {
+          "label": "locale",
+          "protection": "Read/Write",
+          "dataType": "string:5",
+          "value": "en",
+          "defaultValue": "en",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "connectivity",
+          "protection": "Read Only",
+          "dataType": "int:0,3",
+          "value": "3",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424378580000
+        },
+        {
+          "label": "appliance-ip",
+          "protection": "Read Only",
+          "dataType": "string:15",
+          "value": "10.224.4.227",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424377377000
+        },
+        {
+          "label": "execrule",
+          "protection": "Write Only",
+          "dataType": "string:256",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "header-ip",
+          "protection": "Read Only",
+          "dataType": "string:15",
+          "value": "12.12.248.179",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424361374000
+        },
+        {
+          "label": "policyrules",
+          "protection": "Read/Write",
+          "dataType": "table:64,2",
+          "value": "10",
+          "defaultValue": "1",
+          "lastUpdateTime": 1424376604000
+        },
+        {
+          "label": "change-rules-set-row",
+          "protection": "Read/Write",
+          "dataType": "binary",
+          "value": "text/plain",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424509835000
+        },
+        {
+          "label": "rules-set",
+          "protection": "Read Only",
+          "dataType": "binary",
+          "value": "text/plain",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424376591000
+        },
+        {
+          "label": "bb-upload-bw",
+          "protection": "Read/Write",
+          "dataType": "int",
+          "value": "512",
+          "defaultValue": "512",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "policycaps",
+          "protection": "Read Only",
+          "dataType": "string:256",
+          "value": "R=128,G=16,K=16,SP=1,T=1,IIWC=1,HP=2,N=1,RD=1,ER=3,AM=2,TMH=1,DTM=1,AQS=1,VE=1",
+          "defaultValue": "R=4,",
+          "lastUpdateTime": 946685031000
+        },
+        {
+          "label": "tampered-device-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "0,0,",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424495124000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424361350000
+        },
+        {
+          "label": "power-source",
+          "protection": "Read Only",
+          "dataType": "enum:AC,DC",
+          "value": "AC",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418089739000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "schedule-change",
+          "protection": "Read/Write",
+          "dataType": "binary",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "schedule",
+          "protection": "Read Only",
+          "dataType": "binary",
+          "value": "text/plain",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424376616000
+        }
+      ]
+    },
+    {
+      "deviceType": "digital-life-system",
+      "deviceGuid": "AM00000004",
+      "movable": true,
+      "events": [
+        {
+          "event": "ac-power-lost"
+        },
+        {
+          "event": "ac-power-restored"
+        },
+        {
+          "event": "recent-closing-alarm"
+        },
+        {
+          "event": "exit-alarm"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "alarm-condition"
+        },
+        {
+          "event": "alarm-condition-cleared"
+        },
+        {
+          "event": "alarm-pending"
+        },
+        {
+          "event": "pending-alarm-condition-cleared"
+        },
+        {
+          "event": "alarm-condition-confirmed"
+        },
+        {
+          "event": "home-(disarmed)"
+        },
+        {
+          "event": "away-(armed)"
+        },
+        {
+          "event": "stay-(armed)"
+        },
+        {
+          "event": "home-(disarmed)-bypass"
+        },
+        {
+          "event": "instant-(armed)"
+        },
+        {
+          "event": "system-status"
+        },
+        {
+          "event": "police"
+        },
+        {
+          "event": "fire"
+        },
+        {
+          "event": "aux"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "entry-device-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "SD0A0B13BE,SD0A0B13C0,SD0A0B1DE0",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685042000
+        },
+        {
+          "label": "command",
+          "protection": "Write Only",
+          "dataType": "string:256",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "camera-exclusion-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "command-result",
+          "protection": "Read Only",
+          "dataType": "string:256",
+          "value": "Nak!User=553474447[Desktop Web:1424492943301]!Bypass=0! ",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424492942000
+        },
+        {
+          "label": "alarmed-device-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "0,",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424374901000
+        },
+        {
+          "label": "agentcameraexclusionlist",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "alarm-timeout",
+          "protection": "Read/Write",
+          "dataType": "int:180,3600",
+          "value": "300",
+          "defaultValue": "300",
+          "lastUpdateTime": 946685040000
+        },
+        {
+          "label": "system-status",
+          "protection": "Read Only",
+          "dataType": "string:128",
+          "value": "Home",
+          "defaultValue": "Home",
+          "lastUpdateTime": 1424492950000
+        },
+        {
+          "label": "exit-delay",
+          "protection": "Read/Write",
+          "dataType": "int:45,120",
+          "value": "60",
+          "defaultValue": "60",
+          "lastUpdateTime": 946685040000
+        },
+        {
+          "label": "alarmed-device.event-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "0.660,",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424374901000
+        },
+        {
+          "label": "abort-delay",
+          "protection": "Read/Write",
+          "dataType": "int:0,45",
+          "value": "45",
+          "defaultValue": "30",
+          "lastUpdateTime": 946685040000
+        },
+        {
+          "label": "entry-delay",
+          "protection": "Read/Write",
+          "dataType": "int:30,240",
+          "value": "30",
+          "defaultValue": "30",
+          "lastUpdateTime": 946685039000
+        },
+        {
+          "label": "armed-stay-device-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "SD0A2D5C94,SD0A2D5CB2,SD0A2D5CAA,SD0A2D5C7D,SD0A2D5CAE,SD0A0B13C0,SD0A0B1DE0,SD0A0B13BE",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685042000
+        },
+        {
+          "label": "information-notifications",
+          "protection": "Read/Write",
+          "dataType": "string:512",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "alarm-mode",
+          "protection": "Write Only",
+          "dataType": "enum:home,armed stay,armed away,armed instant",
+          "value": "home",
+          "defaultValue": "home",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "armed-instant-device-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "SD0A2D5C94,SD0A2D5CB2,SD0A2D5CAA,SD0A2D5C7D,SD0A2D5CAE,SD0A0B13C0,SD0A0B1DE0,SD0A0B13BE",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685042000
+        },
+        {
+          "label": "24hrdevicelist",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "alarm-notifications",
+          "protection": "Read/Write",
+          "dataType": "string:512",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "cross-zoning-delay",
+          "protection": "Read/Write",
+          "dataType": "int:1,30",
+          "value": "15",
+          "defaultValue": "15",
+          "lastUpdateTime": 946685040000
+        },
+        {
+          "label": "swinger-shutdown-count",
+          "protection": "Read/Write",
+          "dataType": "int:1,6",
+          "value": "2",
+          "defaultValue": "2",
+          "lastUpdateTime": 946685040000
+        },
+        {
+          "label": "am-flags",
+          "protection": "Read/Write",
+          "dataType": "int",
+          "value": "1039",
+          "defaultValue": "1039",
+          "lastUpdateTime": 946685040000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 946685882000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Digital Life System ",
+          "defaultValue": "Digital Life System",
+          "lastUpdateTime": 946685039000
+        },
+        {
+          "label": "bypassed-device-list",
+          "protection": "Read Only",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424492950000
+        },
+        {
+          "label": "armed-away-device-list",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "SD0A0B13BE,SD0A0B13C0,SD0A0B1DE0,SD0A2D5C7D,SD0A2D5C94,SD0A2D5CAA,SD0A2D5CAE,SD0A2D5CB2",
+          "defaultValue": "null",
+          "lastUpdateTime": 1419282213000
+        }
+      ]
+    },
+    {
+      "deviceType": "thermostat",
+      "deviceGuid": "DT00000003",
+      "movable": true,
+      "events": [
+        {
+          "event": "schedule-modification"
+        },
+        {
+          "event": "error-condition"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "low-temperature"
+        },
+        {
+          "event": "high-temperature"
+        },
+        {
+          "event": "thermostat-mode-change"
+        },
+        {
+          "event": "fan-mode-change"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "cool-setpoint",
+          "protection": "Read/Write",
+          "dataType": "int:83,150",
+          "value": "131",
+          "defaultValue": "122",
+          "lastUpdateTime": 946685124000
+        },
+        {
+          "label": "heat-setpoint",
+          "protection": "Read/Write",
+          "dataType": "int:83,150",
+          "value": "122",
+          "defaultValue": "119",
+          "lastUpdateTime": 946685123000
+        },
+        {
+          "label": "save-cool-setpoint",
+          "protection": "Read/Write",
+          "dataType": "int:83,150",
+          "value": "139",
+          "defaultValue": "139",
+          "lastUpdateTime": 946685124000
+        },
+        {
+          "label": "heat-save-setpoint",
+          "protection": "Read/Write",
+          "dataType": "int:83,150",
+          "value": "113",
+          "defaultValue": "113",
+          "lastUpdateTime": 946685124000
+        },
+        {
+          "label": "capabilities",
+          "protection": "Read Only",
+          "dataType": "string:256",
+          "value": "6159,390,3",
+          "defaultValue": "null",
+          "lastUpdateTime": 1418327924000
+        },
+        {
+          "label": "thermostat-mode",
+          "protection": "Read/Write",
+          "dataType": "enum:off,heat,cool,auto,aux-heat,save-heat,save-cool,resume,fan-only,furnace,dry-air,moist-air,auto-changeover,away",
+          "value": "cool",
+          "defaultValue": "off",
+          "lastUpdateTime": 1424467179000
+        },
+        {
+          "label": "fan-mode",
+          "protection": "Read/Write",
+          "dataType": "enum:auto,on,auto-high,on-high",
+          "value": "auto",
+          "defaultValue": "auto",
+          "lastUpdateTime": 946685124000
+        },
+        {
+          "label": "temperature",
+          "protection": "Read Only",
+          "dataType": "int",
+          "value": "122",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424534255000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1420254444000
+        },
+        {
+          "label": "relative-humidity",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "20",
+          "defaultValue": "null",
+          "lastUpdateTime": 1420254448000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Thermostat",
+          "defaultValue": "Thermostat",
+          "lastUpdateTime": 946685123000
+        },
+        {
+          "label": "upper-threshold",
+          "protection": "Read/Write",
+          "dataType": "int:-26,330",
+          "value": "170",
+          "defaultValue": "170",
+          "lastUpdateTime": 946685123000
+        },
+        {
+          "label": "power-source",
+          "protection": "Read Only",
+          "dataType": "enum:AC,DC,unknown",
+          "value": "DC",
+          "defaultValue": "unknown",
+          "lastUpdateTime": 946685124000
+        },
+        {
+          "label": "lower-threshold",
+          "protection": "Read/Write",
+          "dataType": "int:-30,326",
+          "value": "90",
+          "defaultValue": "90",
+          "lastUpdateTime": 946685123000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "79",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424455765000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "camera",
+      "deviceGuid": "IYFFFFFFFF",
+      "movable": true,
+      "events": [
+        {
+          "event": "video/image-captured-on-alarm"
+        },
+        {
+          "event": "video/image-captured-on-alarm"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "capture-button-pressed"
+        },
+        {
+          "event": "motion-detected"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "motion-detection-areas",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "1|86,142,553,321,20",
+          "defaultValue": "1|86,142,553,321,20",
+          "lastUpdateTime": 946685094000
+        },
+        {
+          "label": "brightness",
+          "protection": "Read/Write",
+          "dataType": "int:-3,3",
+          "value": "1",
+          "defaultValue": "1",
+          "lastUpdateTime": 946685096000
+        },
+        {
+          "label": "quiet-time",
+          "protection": "Read/Write",
+          "dataType": "int:30,120,5",
+          "value": "30",
+          "defaultValue": "30",
+          "lastUpdateTime": 946685090000
+        },
+        {
+          "label": "capture",
+          "protection": "Write Only",
+          "dataType": "enum:image,video,snapshot",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "snapshot",
+          "protection": "Read Only",
+          "dataType": "binary",
+          "value": "image/jpeg",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424537162000
+        },
+        {
+          "label": "clip-length",
+          "protection": "Read/Write",
+          "dataType": "int:5,60,5",
+          "value": "10",
+          "defaultValue": "10",
+          "lastUpdateTime": 946685090000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424375100000
+        },
+        {
+          "label": "webcam",
+          "protection": "Read/Write",
+          "dataType": "enum:on,off",
+          "value": "off",
+          "defaultValue": "off",
+          "lastUpdateTime": 946685090000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Camera Wide View",
+          "defaultValue": "Sercomm IP Camera 4551",
+          "lastUpdateTime": 946685090000
+        },
+        {
+          "label": "wifiqos",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "smart-plug",
+      "deviceGuid": "PE00000002",
+      "movable": true,
+      "events": [
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "switch-on"
+        },
+        {
+          "event": "switch-off"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1424374862000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Power Switch",
+          "defaultValue": "Smart Plug",
+          "lastUpdateTime": 946685121000
+        },
+        {
+          "label": "switch",
+          "protection": "Read/Write",
+          "dataType": "enum:on,off",
+          "value": "on",
+          "defaultValue": "off",
+          "lastUpdateTime": 1424493775000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A0B13BE",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418942182000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Door1",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685132000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424491764000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685325000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A2D5C7D",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418941102000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Window1",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685133000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424488607000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685264000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "contact-sensor",
+      "deviceGuid": "SD0A0B1DE0",
+      "movable": false,
+      "events": [
+        {
+          "event": "tamper"
+        },
+        {
+          "event": "tamper-restore"
+        },
+        {
+          "event": "loss-of-power"
+        },
+        {
+          "event": "loss-of-power-restore"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "opened"
+        },
+        {
+          "event": "closed"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1418942658000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Contact Door3",
+          "defaultValue": "Contact Sensor",
+          "lastUpdateTime": 946685133000
+        },
+        {
+          "label": "contact-state",
+          "protection": "Read Only",
+          "dataType": "enum:unknown,closed,open",
+          "value": "closed",
+          "defaultValue": "null",
+          "lastUpdateTime": 1420245041000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "90",
+          "defaultValue": "null",
+          "lastUpdateTime": 946685609000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        }
+      ]
+    },
+    {
+      "deviceType": "door-lock",
+      "deviceGuid": "DL00000004",
+      "movable": true,
+      "events": [
+        {
+          "event": "error-condition"
+        },
+        {
+          "event": "device-log-event"
+        },
+        {
+          "event": "online"
+        },
+        {
+          "event": "offline"
+        },
+        {
+          "event": "battery-low"
+        },
+        {
+          "event": "battery-low-restore"
+        },
+        {
+          "event": "door-unlocked"
+        },
+        {
+          "event": "door-locked"
+        },
+        {
+          "event": "user-code-modification"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "user-codes.3.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459373000
+        },
+        {
+          "label": "user-codes.0.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "1~Master~****",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459370000
+        },
+        {
+          "label": "user-codes.5.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459376000
+        },
+        {
+          "label": "lock",
+          "protection": "Read/Write",
+          "dataType": "enum:unlock,lock",
+          "value": "unlock",
+          "defaultValue": "unlock",
+          "lastUpdateTime": 1424494274000
+        },
+        {
+          "label": "user-codes.2.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459372000
+        },
+        {
+          "label": "status",
+          "protection": "Read Only",
+          "dataType": "int:0,2",
+          "value": "0",
+          "defaultValue": "0",
+          "lastUpdateTime": 1419283771000
+        },
+        {
+          "label": "user-codes.1.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459371000
+        },
+        {
+          "label": "name",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Door Lock",
+          "defaultValue": "Door Lock",
+          "lastUpdateTime": 946685127000
+        },
+        {
+          "label": "user-codes.6.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459377000
+        },
+        {
+          "label": "battery-level",
+          "protection": "Read Only",
+          "dataType": "int:0,100",
+          "value": "96",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424476565000
+        },
+        {
+          "label": "user-codes.4.0",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": 1424459375000
+        },
+        {
+          "label": "location",
+          "protection": "Read/Write",
+          "dataType": "string:16",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "test-mode-expiry",
+          "protection": "Read/Write",
+          "dataType": "string",
+          "value": "null",
+          "defaultValue": "null",
+          "lastUpdateTime": -1
+        },
+        {
+          "label": "last-user-id",
+          "protection": "Read Only",
+          "dataType": "int:-3,6",
+          "value": "-2",
+          "defaultValue": "-1",
+          "lastUpdateTime": 1424488295000
+        },
+        {
+          "label": "lockalarmstate",
+          "protection": "Read/Write",
+          "dataType": "string:32",
+          "value": "Normal",
+          "defaultValue": "Normal",
+          "lastUpdateTime": 1420325886000
+        },
+        {
+          "label": "installer-configuration",
+          "protection": "Read/Write",
+          "dataType": "string:256",
+          "value": "lockTimeout=-1,wrongCodeLimit=5,wrongCodeShutdownTime=60,statusLed=off,sound=on",
+          "defaultValue": "lockTimeout=0,wrongCodeLimit=0,wrongCodeShutdownTime=0,statusLed=u,sound=u",
+          "lastUpdateTime": 946685128000
+        }
+      ]
+    }
+  ]
+}

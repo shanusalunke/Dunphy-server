@@ -67,9 +67,9 @@ def hasAttribute(deviceJson, attributeName):
 
 
 if __name__ == "__main__":
-    APP_ID = "<ENTER APP_ID HERE>"
-    USERNAME = "<ENTER USERNAME HERE>"
-    PASSWORD = "<ENTER PASSWORD HERE>"
+    APP_ID = "FE_7B1ED62B29D02482_1"
+    USERNAME = "553474447"
+    PASSWORD = "NO-PASSWD"
 
     client = DlPenguinClient("https://systest.digitallife.att.com", USERNAME, PASSWORD, APP_ID)
     client.login()
