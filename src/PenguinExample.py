@@ -76,4 +76,8 @@ if __name__ == "__main__":
     client.login()
     deviceList = json.loads(client.getRelativeURL("/penguin/api/{gatewayGUID}/inbox"))["content"]
     print  "--- Print inbox messages --"
-    print deviceList
+    print json.dumps(deviceList)
+    
+    
+    
+    
